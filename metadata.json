@@ -1,0 +1,8 @@
+{
+  "name": "Gestor Financeiro",
+  "description": "Aplicativo completo de gestão financeira pessoal com controle de receitas, despesas, parcelamentos, múltiplas contas, cartões de crédito, orçamentos e relatórios interativos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

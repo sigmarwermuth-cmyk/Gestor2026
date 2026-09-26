@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gf-grad-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="gf-grad-arrow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <filter id="gf-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1E1B4B" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded tile -->
+  <rect width="512" height="512" rx="128" fill="url(#gf-grad-bg)" />
+  
+  <!-- Subtle glass top highlight -->
+  <rect x="24" y="24" width="464" height="220" rx="104" fill="white" fill-opacity="0.1" />
+
+  <!-- Monogram G Vector -->
+  <g transform="translate(64, 64) scale(8.72)" filter="url(#gf-shadow)">
+    <!-- Main G loop -->
+    <path
+      d="M29 14.5C26.5 12.5 23.5 11.5 20 11.5C13.6 11.5 8.5 16.5 8.5 22.8C8.5 29.1 13.6 34.1 20 34.1C26 34.1 30.5 30 31.3 24.5H20V20.2H35.8C36 21.2 36.1 22.2 36.1 23.3C36.1 32 29 38.5 19.8 38.5C10.5 38.5 3 31.5 3 22.8C3 14.1 10.5 7.1 19.8 7.1C24.8 7.1 29.2 8.9 32.5 12L29 14.5Z"
+      fill="white"
+      fill-opacity="0.96"
+    />
+
+    <!-- Ascending Arrow Spark -->
+    <path
+      d="M27 9L36 9L36 18L32.5 14.5L25 22L21.5 18.5L28.5 11.5L27 9Z"
+      fill="url(#gf-grad-arrow)"
+    />
+
+    <!-- Core node -->
+    <circle cx="20" cy="22.5" r="2.2" fill="#10B981" />
+  </g>
+</svg>
